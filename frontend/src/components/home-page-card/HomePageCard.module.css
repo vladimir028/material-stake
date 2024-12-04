@@ -1,0 +1,37 @@
+.informationCard {
+    width: 18rem;
+    height: 12rem;
+    border-radius: 2em;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px 3px rgba(46, 46, 46, 0.62);
+    color: #28231D;
+    margin-bottom: 2rem;
+}
+
+.informationCard:hover {
+    background-color: #F9F9F8;
+    color: #28231D;
+    transform: scale(0.95);
+    box-shadow: 5px 5px 8px rgba(46, 46, 46, 0.8);
+}
+
+
+.cardImage {
+    width: 30%;
+    position: absolute;
+    right: 85%;
+    top: -20%;
+}
+
+.cardBody {
+    min-height: 200px;
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.cardText {
+    text-align: center;
+}
+

@@ -1,0 +1,47 @@
+.container-custom {
+    background-color: #DBD2CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCustomLoaded {
+    background-color: #DBD2CB;
+}
+
+.text-center-custom {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.noPostsMessage {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.noPostsIcon {
+    font-size: 2rem;
+    color: #6c757d;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.noPostsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.voteButton:hover{
+    background-color: #6c757d;
+}

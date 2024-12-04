@@ -1,0 +1,37 @@
+.customButton{
+    color: #101A20;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+    cursor: pointer;
+}
+
+.navbarBrand {
+    color: white;
+}
+
+.navbarNav {
+    margin-inline-start: auto;
+}
+
+.customButton:hover {
+    color: #FFFFFF;
+    background-color: #814A35;
+    border-radius: 40em;
+}
+
+.customButton {
+    color: #818181;
+    background-color: #DBD2CB;
+}
+
+.customButtonWhite {
+    color: #818181;
+    background-color: #FFFFFF;
+}
+
+.logoutLink {
+    color: #880808;
+}

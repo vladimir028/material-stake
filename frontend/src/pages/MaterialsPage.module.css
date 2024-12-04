@@ -1,0 +1,33 @@
+.materialsPageContainer {
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(to right, #DBD2CB, #F0ECE9);
+}
+
+.introContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.introContainer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.introContainer h1 {
+    font-size: 2.5em;
+    color: #814A35;
+    margin: 20px 0;
+}
+
+.introContainer p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}

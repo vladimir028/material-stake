@@ -1,0 +1,20 @@
+.sidebar {
+    background-color: #CDC1B6;
+    height: 100%;
+}
+
+.menuItem {
+    background-color: #CDC1B6;
+}
+.stickySidebar {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    height: 100vh; /* Ensure the sidebar takes the full height of the viewport */
+    overflow-y: auto; /* Add vertical scrolling if needed */
+    background-color: #DBD2CB;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

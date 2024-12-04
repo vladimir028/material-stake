@@ -1,0 +1,45 @@
+/* CommentsModal.css */
+
+.cardCustom {
+    border-radius: 25px;
+}
+
+.textareaCustom {
+    width: 100%;
+    height: 70px;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+.flexStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonCustom {
+    background-color: transparent;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.iconText {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.noMargin {
+    margin: 0;
+}

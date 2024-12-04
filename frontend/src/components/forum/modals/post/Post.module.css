@@ -1,0 +1,65 @@
+/*!* Post.module.css *!*/
+/*.modalHeader {*/
+/*    background-color: #CDC1B6;*/
+/*    color: #28231D;*/
+/*    border-bottom: 2px solid #814A35;*/
+/*    padding: 15px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.modalTitle {*/
+/*    font-size: 1.8rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.modalBody {*/
+/*    background-color: #DBD2CB;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.label {*/
+/*    font-weight: bold;*/
+/*    margin-bottom: 5px;*/
+/*    display: block;*/
+/*    color: #28231D;*/
+/*}*/
+
+/*.input,*/
+/*.textarea {*/
+/*    width: 100%;*/
+/*    border: 2px solid #CDC1B6;*/
+/*    border-radius: 5px;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 15px;*/
+/*    background-color: #FFFADA;*/
+/*    font-size: 1rem;*/
+/*}*/
+
+/*.input:focus,*/
+/*.textarea:focus {*/
+/*    border-color: #814A35;*/
+/*    box-shadow: 0 0 5px rgba(129, 74, 53, 0.5);*/
+/*}*/
+
+/*.buttonSubmit {*/
+/*    background-color: #814A35;*/
+/*    color: #FFFADA;*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    font-size: 1rem;*/
+/*    transition: background-color 0.3s ease, color 0.3s ease;*/
+/*}*/
+
+/*.buttonSubmit:hover {*/
+/*    background-color: #FFFADA;*/
+/*    color: #814A35;*/
+/*}*/
+
+/*.modalFooter {*/
+/*    border-top: 2px solid #814A35;*/
+/*    background-color: #DBD2CB;*/
+/*    padding: 10px;*/
+/*    text-align: center;*/
+/*}*/

@@ -1,0 +1,13 @@
+package com.example.finkishare.repository;
+
+import com.example.finkishare.model.Attachment;
+import com.example.finkishare.model.SubjectDetails;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface AttachmentRepository extends JpaRepository<Attachment, String> {
+    List<Attachment> findAllBySubjectDetails(SubjectDetails subjectDetails);
+}

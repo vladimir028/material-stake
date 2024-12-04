@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "imgPath": "/images/studentorg/st_org_best_logo.png",
+    "organizationName": "BEST",
+    "description": "A vibrant community for students passionate about technology, offering hands-on projects, hackathons, and workshops in coding, cybersecurity, and software development.",
+    "link": "https://best.org.mk/en/home3/"
+  },
+  {
+    "id": 1,
+    "imgPath": "/images/studentorg/st_org_iaeste_logo.png",
+    "organizationName": "IAESTE",
+    "description": "A group for coding enthusiasts, providing regular meetups, coding challenges, and mentorship to enhance programming skills and work on real-world projects.",
+    "link": "https://iaeste.org.mk/"
+  },
+  {
+    "id": 2,
+    "imgPath": "/images/studentorg/eestec-removebg-preview.png",
+    "organizationName": "EESTEC",
+    "description": "An association focused on the latest IT trends, organizing seminars, guest lectures, and industry visits to keep members informed and inspired.",
+    "link": "https://eestec.net/"
+  },
+  {
+    "id": 3,
+    "imgPath": "/images/studentorg/fss_finki.png",
+    "organizationName": "FSS FINKI",
+    "description": "A supportive community for IT students, offering collaborative projects, tech talks, and skill-building workshops to prepare members for careers in the technology sector.",
+    "link": "http://fss.finki.ukim.mk/"
+  }
+]

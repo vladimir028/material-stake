@@ -1,0 +1,20 @@
+.classicSpinner {
+    display: flex;
+    justifyContent: center;
+    alignItems: start;
+    height: 100vh;
+}
+
+.modifiedSpinner {
+    background-color: #DBD2CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondVersion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "description": "Advanced",
+    "selected": false,
+    "id": 0,
+    "category": ["Advanced", "Databases", "Web Programming", "Advanced Web Design"],
+    "title": "Популарни курсеви"
+  },
+  {
+    "description": "Artificial",
+    "selected": false,
+    "id": 0,
+    "category": ["Artificial", "Machine", "Agent"],
+    "title": "AI"
+  },
+  {
+    "description": "Web",
+    "selected": false,
+    "id": 0,
+    "category": ["Web"],
+    "title": "Web Development"
+  },
+  {
+    "description": "Math",
+    "selected": false,
+    "id": 0,
+    "category": ["Math"],
+    "title": "Останати"
+  }
+]

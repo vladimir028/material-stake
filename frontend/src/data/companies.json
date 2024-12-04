@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "imgPath": "/images/companies/codechem.png",
+    "organizationName": "CodeChem",
+    "description": "A leading software development firm specializing in AI solutions and cloud computing, CodeChem  offers hands-on internships where students can work on cutting-edge projects, gaining valuable industry experience and mentorship from top professionals",
+    "isFlipped": false,
+    "link": "https://codechem.com/"
+  },
+  {
+    "id": 1,
+    "imgPath": "/images/companies/it_labs.png",
+    "organizationName": "IT Labs",
+    "description": "Renowned for their robust cybersecurity products, IT Labs provides internships that immerse students in the world of cyber defense, allowing them to work alongside experts to protect data integrity and privacy for enterprises worldwide",
+    "isFlipped": false,
+    "link": "https://www.it-labs.com/"
+  },
+  {
+    "id": 2,
+    "imgPath": "/images/companies/netcetera.png",
+    "organizationName": "Netcetera",
+    "description": "Pioneering the IoT industry, Netcetera offers dynamic internships where interns can contribute to the integration of smart technology into everyday devices, learning to create interconnected and efficient smart environments",
+    "isFlipped": false,
+    "link": "https://www.netcetera.com/home.html"
+  },
+  {
+    "id": 3,
+    "imgPath": "/images/companies/seavus.png",
+    "organizationName": "Seavus",
+    "description": "Experts in big data and analytics, Seavus offers comprehensive internships that give students the opportunity to work on real-world data management solutions and analytics projects, helping them develop skills in making data-driven decisions",
+    "isFlipped": false,
+    "link": "https://qinshift.com/"
+  },
+  {
+    "id": 4,
+    "imgPath": "/images/companies/sorsix.png",
+    "organizationName": "Sorsix",
+    "description": "Specializing in IT infrastructure and network solutions, Sorsix provides internships that focus on designing and implementing scalable networks. Interns gain practical experience in enhancing connectivity and operational efficiency for businesses",
+    "isFlipped": false,
+    "link": "https://www.sorsix.com/"
+  },
+  {
+    "id": 5,
+    "imgPath": "/images/companies/kin_carta.png",
+    "organizationName": "Kin Carta",
+    "description": "At Kit Carta, we revolutionize online shopping experiences by integrating cutting-edge technology with seamless, user-friendly interfaces. Empower your business with Kit Carta's innovative e-commerce solutions, designed to enhance customer satisfaction and drive sales growth.",
+    "isFlipped": false,
+    "link": "https://www.kinandcarta.com/en/"
+  }
+]

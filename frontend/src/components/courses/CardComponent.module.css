@@ -1,0 +1,59 @@
+.green-button {
+    background-color: #c9f8c9;
+    color: white;
+}
+.card {
+    height: 180px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.cardHover {
+    background-color: #814A35;
+    color: #FFFADA;
+}
+
+.cardDefault {
+    background-color: #CDC1B6;
+    color: #28231D;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardText {
+    color: inherit;
+}
+
+.cardText p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.cardScale {
+    transform: scale(1.02);
+}
