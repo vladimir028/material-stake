@@ -1,7 +1,6 @@
 package com.example.finkishare.service;
 
 import com.example.finkishare.model.SubjectDetails;
-import com.example.finkishare.model.User;
 
 import java.util.List;
 

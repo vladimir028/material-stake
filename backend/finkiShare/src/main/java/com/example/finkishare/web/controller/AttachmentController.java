@@ -15,8 +15,9 @@ import org.springframework.http.MediaType;
 
 import java.util.List;
 
-@RequiredArgsConstructor
+
 @RestController
+@RequiredArgsConstructor
 @CrossOrigin("http://localhost:3000/")
 @RequestMapping("/file")
 public class AttachmentController {
@@ -26,8 +27,7 @@ public class AttachmentController {
     public ResponseData uploadFile(@RequestParam("file") MultipartFile file, @RequestParam("description") String description,  @RequestParam("subjectId") String subjectId, @RequestParam("username") String username) throws Exception {
         Attachment attachment = null;
         String downloadURl = "";
-        System.out.println(description);
-        System.out.println(subjectId);
+
         attachment = attachmentService.saveAttachment(file, description, Long.parseLong(subjectId), username);
         downloadURl = ServletUriComponentsBuilder.fromCurrentContextPath()
                 .path("/file/download/")

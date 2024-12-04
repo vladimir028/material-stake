@@ -5,17 +5,17 @@ import com.example.finkishare.model.dto.PostDto;
 import com.example.finkishare.service.PostService;
 import com.example.finkishare.service.SubjectDetailsService;
 import com.example.finkishare.service.UserService;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequiredArgsConstructor
 @CrossOrigin("http://localhost:3000/")
-@AllArgsConstructor
 public class PostController {
 
-    final private PostService postService;
+    private final PostService postService;
     private final UserService userService;
     private final SubjectDetailsService subjectDetailsService;
 
