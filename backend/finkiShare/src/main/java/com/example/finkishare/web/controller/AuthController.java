@@ -2,39 +2,20 @@ package com.example.finkishare.web.controller;
 
 import com.example.finkishare.model.Role;
 import com.example.finkishare.model.User;
+import com.example.finkishare.model.dto.AuthenticationResponse;
+import com.example.finkishare.model.dto.UserRequest;
 import com.example.finkishare.service.UserService;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequiredArgsConstructor
 @CrossOrigin("http://localhost:3000/")
 public class AuthController {
 
     public final UserService userService;
-
-    public AuthController(UserService userService) {
-        this.userService = userService;
-    }
-
-    @Getter
-    @AllArgsConstructor
-    static class AuthenticationResponse {
-        private final boolean authenticated;
-        private final String username;
-        private final User user;
-    }
-
-    @Getter
-    @AllArgsConstructor
-    static class UserRequest {
-        private final String username;
-        private final String email;
-        private final String password;
-        private final String image;
-    }
 
     @GetMapping("/check-login")
     public AuthenticationResponse checkAuthentication(Authentication authentication) {
@@ -49,7 +30,7 @@ public class AuthController {
     }
 
     @PostMapping("/register")
-    public String registerUser( @RequestBody UserRequest userRequest){
+    public String registerUser(@RequestBody UserRequest userRequest){
         userService.create(
                 userRequest.getUsername(),
                 userRequest.getEmail(),

@@ -4,7 +4,7 @@ import {BiUpvote} from "react-icons/bi";
 import { BiDownvote } from "react-icons/bi";
 import Button from "react-bootstrap/Button";
 
-// TODO: REFACTORING
+
 const Post = ({post, updateVote, decreaseVote}) => {
     // Define a variable to hold the image URL
     const imageUrl = "https://cdn3d.iconscout.com/3d/premium/thumb/man-5692600-4743369.png?f=webp"; // Assuming imageUrl is a property of the post object

@@ -7,7 +7,6 @@ import com.example.finkishare.repository.PostRepository;
 import com.example.finkishare.repository.SubjectDetailsRepository;
 import com.example.finkishare.service.PostService;
 import lombok.AllArgsConstructor;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
